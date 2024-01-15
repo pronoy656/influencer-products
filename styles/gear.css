@@ -47,7 +47,11 @@ nav title{
     display: flex;
     gap:150px;
     padding: 0px 120px;
-    background-image: url(Circle design.svg);
+}
+.banner-img{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 .banner-content{
     max-width: 580px;
@@ -73,6 +77,9 @@ nav title{
     max-width: 1440px;
     margin: 40px 227px;
     justify-content: center;
+    padding-top: 80px;
+    border-top: 1px solid gray;
+ 
 }
 .product-title{
     text-align: center;
@@ -128,4 +135,59 @@ nav title{
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 15px;
+}
+.btn-lst{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 10px;
+    font-weight: 500;
+    width: 75px;
+    height: 24px;
+}
+/* featured sectuion-------------------- */
+.featured{
+    display: flex;
+    margin: 174px 165px;
+    gap: 96px;
+}
+.featured-details h3{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+.featured-details p{
+    margin: 16px;
+    width: 501px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Footer section start---------------------- */
+.footer-section{
+    background: #0A0826;
+    height: 239px;
+    text-align: center;
+}
+.footer-title{
+    padding-top: 50px;
+    margin-bottom: 3px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-description{
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 14px;
+    font-weight: 700;
+}
+.fot-connect{
+    width: 32px ;
+    display: flex;
+    gap: 16px;
+    padding-left:  675px;
+    padding-top: 20px;
+    border-top: 1px solid gray;
+
+}
+.fot-connect img {
+    width: 32px ;
 }
